@@ -7,7 +7,8 @@ export default {
     extend: {
       colors: {
         evergreen: "#2B4341",
-        evergreenLight: "#2AA78D"
+        evergreenLight: "#2AA78D",
+        grayText: "#6F7373"
       }
     },
   },
