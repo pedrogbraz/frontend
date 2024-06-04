@@ -33,7 +33,7 @@ export function Home() {
     <Container>
       <div className="mt-12">
         <Title text='O que você quer ler hoje?' />
-        <div className="grid grid-cols-8 gap-8 my-16">
+        <div className="grid grid-cols-3 md:grid-cols-8 gap-8 my-16">
           {genderBooks.map(book => (
             <Button text={book} className={''} variant={selectedGender.includes(book) ? 'dark' : 'light'} onClick={() => handleSelect (book)} />
           ))}
